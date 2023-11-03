@@ -1,4 +1,3 @@
-
 import { CollectionConfig } from 'payload/types'
 
 const Posts: CollectionConfig = {
@@ -21,6 +20,10 @@ const Posts: CollectionConfig = {
             {
               name: 'ExampleText',
               type: 'text'
+            },
+            {
+              name: 'richtext',
+              type: 'richText'
             }
           ]
         }
